@@ -114,11 +114,18 @@
     .title {
       color: #ffffff;
     }
+
+    @media (max-width: 767px) {
+      .header-logo {
+        width: 200px;
+        height: 200px;
+      }
+    }
   </style>
 </head>
 <body>
   <header>
-    <img src="/Logo de Alerta360.png" width="400" height="400">
+    <img class="header-logo" src="/Logo de Alerta360.png" width="400" height="400">
     <h1>Alerta360</h1>
     <p>Tu seguridad, en línea 24/7</p>
     <nav>
